@@ -4,7 +4,7 @@
       TreeNode right;
       TreeNode(int x) { val = x; }
   }
-  
+
 public class Merge_Two_Binary_Trees_617 {
     public static void main(String[] args) {
 

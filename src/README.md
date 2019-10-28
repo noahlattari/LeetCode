@@ -12,7 +12,7 @@
     t1.left = merge(t1.left, t2.left); t1.right = merge(t1.right, t2.right).
        
 3.  Reverse String 
-    I learned that if you have two points going from the start to finish, you may only need to iterate half
+    I learned that if you have two points going froxwxxwm the start to finish, you may only need to iterate half
     the amount of times as usual, since you are only going until they meet. Also the general swapping algorithm goes:
     char temp = swap1
     swap1 = swap2 - i
@@ -27,7 +27,12 @@
     I learned that you should trace the sample input and manually in your head get to the sample output, i.e start buy coding what you are thinking.
     In our case, we went through the array and subtracted the next number by the current if the next number was bigger, if it's not do nothing. Code exactly that.
     Don't overthink problems just because they say "algorithm" or "optimize".
+    
+6.  Jewels and Stones
+    I learned that using hashsets are useful if you wanna see if something you're iterating through is contained in something, you can just have O(n) lookup time without 
+    having to loop through the second string. In our case we saved ourself from looping through the jewels to see if it's in there.
             
 
 
     
+

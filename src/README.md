@@ -34,8 +34,16 @@
             
 7. Reverse LinkedList
     I learned to iterate through a linkedlist, you'll have while(head != null). I also learned to do a problem first by hand then code it. In our case the main 
-    thing to see is that because we are flipping the arrow to reverse the list, we can't remember the proper previous node and next node. We start  
-        
+    thing to see is that because we are flipping the arrow to reverse the list, we can't remember the proper previous node and next node. We start by defining a
+    prev to null (since theres nothing behind the head) and a next to null. The algorithm goes like this:
+    
+    1. next = curr.next | Need the next value in the list so we can actually continue iterating
+    2. curr.next = prev | This is us actually flipping the arrow the other direction (reversing)
+    3. prev = curr      | Set the prev to the current before moving current forward (so we can reference prev again next time)
+    4. curr = next      | Finally move curr forward, we cant do curr = curr.next since we set curr.next to point backwards to prev.
+    
+    1 -> 2 -> 3 -> 4 
+    4 -> 3 -> 2 -> 1 
 
     
 

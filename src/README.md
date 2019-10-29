@@ -32,7 +32,10 @@
     I learned that using hashsets are useful if you wanna see if something you're iterating through is contained in something, you can just have O(n) lookup time without 
     having to loop through the second string. In our case we saved ourself from looping through the jewels to see if it's in there.
             
-
+7. Reverse LinkedList
+    I learned to iterate through a linkedlist, you'll have while(head != null). I also learned to do a problem first by hand then code it. In our case the main 
+    thing to see is that because we are flipping the arrow to reverse the list, we can't remember the proper previous node and next node. We start  
+        
 
     
 

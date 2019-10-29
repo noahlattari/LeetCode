@@ -12,7 +12,7 @@
     t1.left = merge(t1.left, t2.left); t1.right = merge(t1.right, t2.right).
        
 3.  Reverse String 
-    I learned that if you have two points going froxwxxwm the start to finish, you may only need to iterate half
+    I learned that if you have two points going from the start to finish, you may only need to iterate half
     the amount of times as usual, since you are only going until they meet. Also the general swapping algorithm goes:
     char temp = swap1
     swap1 = swap2 - i

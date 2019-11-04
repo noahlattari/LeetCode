@@ -45,5 +45,6 @@
     1 -> 2 -> 3 -> 4 
     4 -> 3 -> 2 -> 1 
 
-    s
+8. ####Contains Duplicates
+    I learned that you don't always need a hashmap for duplicates, hashsets work well too. 
 

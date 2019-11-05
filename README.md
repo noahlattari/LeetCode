@@ -47,4 +47,13 @@
 
 8. ####Contains Duplicates
     I learned that you don't always need a hashmap for duplicates, hashsets work well too. 
+    
+9. ####Move Zeroes
+    I Learned that if you modify an array in place, you usually need two pointers. One that goes through the whole array (i), and
+    one that is only incremented on a certain case (current == 0). 
+    
+10. ####Intersection of two arrays
+    I learned that if you need to return an array but you don't know the size, start with an arraylist then convert it to an 
+    array. Finding if two different data structures (arrays) contain similar elements, it's useful to use a hashmap and a counter
+    and decrement the counter if there is a match.
 

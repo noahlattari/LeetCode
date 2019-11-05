@@ -55,5 +55,5 @@
 10. ####Intersection of two arrays
     I learned that if you need to return an array but you don't know the size, start with an arraylist then convert it to an 
     array. Finding if two different data structures (arrays) contain similar elements, it's useful to use a hashmap and a counter
-    and decrement the counter if there is a match.
+    and decrement the counter if there is a match. 
 

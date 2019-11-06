@@ -316,8 +316,6 @@
       <change afterPath="$PROJECT_DIR$/../faceapp2/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../faceapp2/venv/lib/python3.7/site-packages/setuptools.pth" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../faceapp2/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -557,16 +555,15 @@
       <workItem from="1572316135736" duration="1575000" />
       <workItem from="1572840586003" duration="1565000" />
       <workItem from="1572926308136" duration="2083000" />
-      <workItem from="1573010812663" duration="112000" />
+      <workItem from="1573010812663" duration="387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12411000" />
+    <option name="totallyTimeSpent" value="12686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="266" y="1103" width="1920" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26357827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

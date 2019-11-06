@@ -58,4 +58,7 @@
     and decrement the counter if there is a match. 
    
 11. ####Flood Fill
+    I learned that DFS is good for finding if a path exist. It basically recurses down a tree/path/graph until it can't anymore.
+    That "Can't" is usually handled by some if statement, in our case it was "if image[r][c] == color". The flood will fill, and
+    dfs will recursively go until that if statement is blocked, so until we reach 4 numbers we can't fill into.
 

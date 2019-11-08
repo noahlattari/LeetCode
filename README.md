@@ -62,3 +62,7 @@
     That "Can't" is usually handled by some if statement, in our case it was "if image[r][c] == color". The flood will fill, and
     dfs will recursively go until that if statement is blocked, so until we reach 4 numbers we can't fill into.
 
+12. ####Number of Islands
+    I learned that, again dfs is good when things connect eachother in a graph. I learned that when having dfs
+    there is usually an if statement before all the recursive cases. That if statement breaks you out of dfs,
+    which in our case is when we stopped finding any 1s.

@@ -84,3 +84,11 @@
     It's good to set your if statements up in that order, and to re check and make sure you aren't doing redundent
     logic, in our example we don't even need an if statemment for case 2, we just need to set the pos to 0 if its 9
     and then the rest will be taken care of by case1's if statement.
+    
+15. Rotate Image
+    I learned that if you want to rotate an image/matrix to the right the order is
+        Reverse rows -> Transpose ([i][j] -> [j][i])
+    If you want to rotate an image/matrix to the left (counter clockwise)
+        Reverse columns -> Transpose
+    This seems like a "trick" but it's really not. If you draw out a small sample nxn matrix, and try doing
+    matrix operations on it, you can end up with an algorithm to get to the end.

@@ -79,7 +79,7 @@
     the loop you can assume youve hit that really rare case, (all 9s). I also learned that problems that req
     a lot of cases, i.e 
     case 1: 1 0 0 2, ending number isnt 9, just plus one
-    case 2: 1 0 0 9, ending number is 9, make it 0 and add 1 to the previous (implying its also not 9)
+    case 2: 1 0 0 9, ending number is 9, make it 0 and add 1 to the previous (handled by case 1)
     case 3: 9 9 9 9, make new array and set pos 0 to 1.
     It's good to set your if statements up in that order, and to re check and make sure you aren't doing redundent
     logic, in our example we don't even need an if statemment for case 2, we just need to set the pos to 0 if its 9

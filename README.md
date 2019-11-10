@@ -92,3 +92,13 @@
         Reverse columns -> Transpose
     This seems like a "trick" but it's really not. If you draw out a small sample nxn matrix, and try doing
     matrix operations on it, you can end up with an algorithm to get to the end.
+    It's also useful to note that if you want to swap the rows or columns, you dont need to do [][], like
+    you can access a whole row with matrix[r], you dont need the extra [].
+    
+16. Rotate Array
+    I learned that rotating arrays often involved reversals. The general algorithm to shift an array k times is
+        Reverse whole array
+        Reverse from 0, k -1
+        Reverse from k, length - 1
+    This comes from an observation by viewing the final product. Also for reversing its good to have a start and
+    end and do a while(start < end) type beat

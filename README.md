@@ -66,3 +66,10 @@
     I learned that, again dfs is good when things connect eachother in a graph. I learned that when having dfs
     there is usually an if statement before all the recursive cases. That if statement breaks you out of dfs,
     which in our case is when we stopped finding any 1s.
+    
+13. ####Fibonacci Number
+    I learned that for recrusion, you don't actually "compute" anything until the base case. This is evendent 
+    here because no value actually exist on the stack until fib(1) or fib(0). Memoization is good when you 
+    have recursion and repeat calculations. For example if I draw a trace tree, and the right side has already
+    calculated fib(5), why would the left side calculate it too? Just store it in a map and check if it exists before
+    recursing down. 

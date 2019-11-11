@@ -115,3 +115,12 @@
         Second two loops advance the actual square to the next square
             m = i * 3; m = i * 3 + 3; m++. Think of this as jumping to square 2 where the outer two loops just
             iterate through THAT SPECIFIC SQUARE.
+            
+18. Reverse Integer
+    I learned that number % 10 is good at getting the last digit of a number.
+    I also learned that result * 10 is a good way at advancing the 10s place.
+    Ex: result = (result * 10) + num % 10
+        num = num / 10;
+    What this does is it takes the last digit of nums, adds it to result, and then removes that digit from nums
+    the result * 10 is basically like int i = 0, it's just advancing forward on result, so the next thing to be 
+    added to result goes in the next place.

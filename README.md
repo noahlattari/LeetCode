@@ -147,3 +147,9 @@
         result = result * 10 + (str.charAt(i) - '0')
         check for overflow with result
     Note: str.charAt(i) - '0' converts a char to an int.
+    
+23. Implement str Str()
+    I learned then when you want to see if something small exists in something big brute force, i.e 
+    does aa exist in abcaadw
+    It's better to use a for loop and then a while loop instead of two for loops. This helps you continue 
+    iterating while the thing you found in the big string equals the little string.

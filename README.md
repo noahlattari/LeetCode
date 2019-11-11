@@ -124,3 +124,8 @@
     What this does is it takes the last digit of nums, adds it to result, and then removes that digit from nums
     the result * 10 is basically like int i = 0, it's just advancing forward on result, so the next thing to be 
     added to result goes in the next place.
+    
+19. First Unique Character in a String.
+    I learned that if you want to increment a value with a key in a map, the syntax is map.get(key)+1 not
+    ++ or +=1. Also, map.getOrdefault(map.get(key), 0) is really clean. It elimates the case where the key
+    does not exist in the map and you must put it in with a 0.

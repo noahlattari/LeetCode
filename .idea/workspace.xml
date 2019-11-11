@@ -319,9 +319,7 @@
       <change afterPath="$PROJECT_DIR$/../faceapp2/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../faceapp2/venv/lib/python3.7/site-packages/setuptools.pth" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../faceapp2/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reverse_Words_In_A_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reverse_Words_In_A_String.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -362,32 +360,32 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="4359" />
-          <entry key="md" value="9233" />
+          <entry key="md" value="9556" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="4359" />
-          <entry key="Markdown" value="9233" />
+          <entry key="Markdown" value="9556" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="419">
-                <caret line="154" column="83" selection-start-line="154" selection-start-column="83" selection-end-line="154" selection-end-column="83" />
+              <first_editor relative-caret-position="404">
+                <caret line="159" column="75" selection-start-line="159" selection-start-column="75" selection-end-line="159" selection-end-column="75" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Reverse_Words_In_A_String.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -481,8 +479,8 @@
         <option value="$PROJECT_DIR$/src/Valid_Palindrome_125.java" />
         <option value="$PROJECT_DIR$/src/String_To_Integer_atoi_8.java" />
         <option value="$PROJECT_DIR$/src/Implement_strStr_28.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Reverse_Words_In_A_String.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -527,7 +525,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573499274432" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573506345561" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -579,12 +577,12 @@
       <workItem from="1573183287143" duration="2088000" />
       <workItem from="1573253947293" duration="276000" />
       <workItem from="1573354002993" duration="6654000" />
-      <workItem from="1573491865109" duration="1910000" />
+      <workItem from="1573491865109" duration="2016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25010000" />
+    <option name="totallyTimeSpent" value="25116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="174" y="68" width="1440" height="830" extended-state="0" />
@@ -788,20 +786,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="419">
-            <caret line="154" column="83" selection-start-line="154" selection-start-column="83" selection-end-line="154" selection-end-column="83" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Reverse_Words_In_A_String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="404">
+            <caret line="159" column="75" selection-start-line="159" selection-start-column="75" selection-end-line="159" selection-end-column="75" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

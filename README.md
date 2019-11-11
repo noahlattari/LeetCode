@@ -153,3 +153,8 @@
     does aa exist in abcaadw
     It's better to use a for loop and then a while loop instead of two for loops. This helps you continue 
     iterating while the thing you found in the big string equals the little string.
+    
+24. Reverse Words in a String
+    I learned that you can turn a string into a string array based on regex like: String[] arr = s.split(" ")
+    StringBuilder also came in handy for building new strings due to how you can easily append to it.
+    Lastly, s.trim() is useful to remove starting and trailing whitespaces.

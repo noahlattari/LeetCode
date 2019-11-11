@@ -127,5 +127,5 @@
     
 19. First Unique Character in a String.
     I learned that if you want to increment a value with a key in a map, the syntax is map.get(key)+1 not
-    ++ or +=1. Also, map.getOrdefault(map.get(key), 0) is really clean. It elimates the case where the key
+    ++ or +=1. Also, map.getOrDefault(map.get(key), 0) is really clean. It elimates the case where the key
     does not exist in the map and you must put it in with a 0.

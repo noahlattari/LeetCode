@@ -103,3 +103,15 @@
     This comes from an observation by viewing the final product. Also for reversing its good to have a start and
     end and do a while(start < end) type beat
     
+17. Valid Sudoku
+    I learned if something has a fixed input (9x9) it's prob ok to have double for loops. Once again sets are 
+    good at keeping track of duplicates, you can have multiple passes and just clear the set after each pass
+    to save memory.
+    This problem was broken down into 3 different passes/checks
+    1. Row check - Double for loop indexing by board[i][j]
+    2. Column check - Double for loop indexing by board[j][i] (useful for iterating by columns first)
+    3. 3x3 Check - Quadra for loop.
+        First two loops iterate through a square, i.e i < 3, j < 3/
+        Second two loops advance the actual square to the next square
+            m = i * 3; m = i * 3 + 3; m++. Think of this as jumping to square 2 where the outer two loops just
+            iterate through THAT SPECIFIC SQUARE.

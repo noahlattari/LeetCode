@@ -138,3 +138,12 @@
 21. Valid Palindrome
     I learned a two pointer(start and end) approach is good here. We basically check if the thing we are on is
     an actual character, if it's NOT update the start/end as much as there is invalid characters.
+    
+22. String to Integer atoi
+    I learned that if you're converting something to an integer, or re arranging an integer, and overflow is 
+    involved, you must build it into a long to check for overflow. We used a similar strategy in Reverse integer
+    where we need to build a new int from a given int, it's similar here. We can build the int with Horners rule.
+        long result = 0;
+        result = result * 10 + (str.charAt(i) - '0')
+        check for overflow with result
+    Note: str.charAt(i) - '0' converts a char to an int.

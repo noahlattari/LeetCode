@@ -129,3 +129,8 @@
     I learned that if you want to increment a value with a key in a map, the syntax is map.get(key)+1 not
     ++ or +=1. Also, map.getOrDefault(map.get(key), 0) is really clean. It elimates the case where the key
     does not exist in the map and you must put it in with a 0.
+    
+20. Valid Anagram
+    Anagram means re-arranging the word can get you the other, aka same letter frequency.
+    I learned its always good to check the obvious case, i.e they obviously aren't anagrams if string 1 is 
+    a different size than string 2. One again map.getOrDefault(s.charAt(i), 0) + 1 comes in handy.

@@ -134,3 +134,7 @@
     Anagram means re-arranging the word can get you the other, aka same letter frequency.
     I learned its always good to check the obvious case, i.e they obviously aren't anagrams if string 1 is 
     a different size than string 2. One again map.getOrDefault(s.charAt(i), 0) + 1 comes in handy.
+    
+21. Valid Palindrome
+    I learned a two pointer(start and end) approach is good here. We basically check if the thing we are on is
+    an actual character, if it's NOT update the start/end as much as there is invalid characters.

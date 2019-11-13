@@ -159,7 +159,8 @@
     Lastly, s.trim() is useful to remove starting and trailing whitespaces.
     
 25. Longest Common Prefix
-    
+    I learned that sometime brute force is just the only way. If you're comparing a prefix of something, you can only 
+    run as many times as the smallest input.
 
 26. Delete Node in Linked List
     The general node deletion algorithm without the previous goes

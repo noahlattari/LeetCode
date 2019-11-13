@@ -168,3 +168,5 @@
     node.next = node.next.next;
 
 27. Remove nth node from end of list
+    The algorithm to remove the nth node is a two pointer strategy. The fast running goes n steps through, then once it reaches n steps the slow node and the fast node go 
+    until the fast reaches the end

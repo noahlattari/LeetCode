@@ -1,4 +1,3 @@
-
 1.  Two Sum
     I learned that containsKey checks if a key is in a hashmap, and that .get gets the value associated with that key.
     You don't always need to have the value as the hashmap value, it can also be the index. The key should be the unique things you 
@@ -158,3 +157,11 @@
     I learned that you can turn a string into a string array based on regex like: String[] arr = s.split(" ")
     StringBuilder also came in handy for building new strings due to how you can easily append to it.
     Lastly, s.trim() is useful to remove starting and trailing whitespaces.
+    
+25. Longest Common Prefix
+    
+
+26. Delete Node in Linked List
+    The general node deletion algorithm without the previous goes
+    node.val = node.next.val
+    node.next = node.next.next;

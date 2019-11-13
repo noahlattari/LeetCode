@@ -166,3 +166,5 @@
     The general node deletion algorithm without the previous goes
     node.val = node.next.val
     node.next = node.next.next;
+
+27. Remove nth node from end of list

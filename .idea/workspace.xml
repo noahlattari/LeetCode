@@ -321,7 +321,7 @@
       <change afterPath="$PROJECT_DIR$/../faceapp2/venv/pyvenv.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Longest_Common_Prefix_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Longest_Common_Prefix_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Remove_nth_Node_From_End_Of_List_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Remove_nth_Node_From_End_Of_List_19.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -349,41 +349,50 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="34" />
+          <entry key="java" value="35" />
           <entry key="md" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="34" />
+          <entry key="JAVA" value="35" />
           <entry key="Markdown" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4363" />
-          <entry key="md" value="9940" />
+          <entry key="java" value="4380" />
+          <entry key="md" value="9987" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4363" />
-          <entry key="Markdown" value="9940" />
+          <entry key="JAVA" value="4380" />
+          <entry key="Markdown" value="9987" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="493">
-                <caret line="162" column="44" selection-start-line="162" selection-start-column="44" selection-end-line="162" selection-end-column="44" />
+              <first_editor relative-caret-position="590">
+                <caret line="169" column="36" lean-forward="true" selection-start-line="169" selection-start-column="36" selection-end-line="169" selection-end-column="36" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Remove_nth_Node_From_End_Of_List_19.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -486,6 +495,7 @@
         <option value="$PROJECT_DIR$/src/Delete_Node_In_Linked_List_237.java" />
         <option value="$PROJECT_DIR$/src/Longest_Common_Prefix_14.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Remove_nth_Node_From_End_Of_List_19.java" />
       </list>
     </option>
   </component>
@@ -530,7 +540,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573687152034" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573688976648" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -584,18 +594,18 @@
       <workItem from="1573354002993" duration="6654000" />
       <workItem from="1573491865109" duration="2971000" />
       <workItem from="1573598788739" duration="1334000" />
-      <workItem from="1573685408232" duration="1475000" />
+      <workItem from="1573685408232" duration="2642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28880000" />
+    <option name="totallyTimeSpent" value="30047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1920" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30457935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30457935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -611,7 +621,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24509804" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24509804" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -817,10 +827,17 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="493">
-            <caret line="162" column="44" selection-start-line="162" selection-start-column="44" selection-end-line="162" selection-end-column="44" />
+          <first_editor relative-caret-position="590">
+            <caret line="169" column="36" lean-forward="true" selection-start-line="169" selection-start-column="36" selection-end-line="169" selection-end-column="36" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Remove_nth_Node_From_End_Of_List_19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

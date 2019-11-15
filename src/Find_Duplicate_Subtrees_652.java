@@ -2,6 +2,7 @@ import java.util.*;
 public class Find_Duplicate_Subtrees_652 {
     HashMap<String, Integer> map;
     List<TreeNode> res;
+
     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
         map = new HashMap<>();
         res = new ArrayList<>();
@@ -23,4 +24,4 @@ public class Find_Duplicate_Subtrees_652 {
         return subTree;
     }
 }
-}
+

@@ -168,5 +168,31 @@
     node.next = node.next.next;
 
 27. Remove nth node from end of list
-    The algorithm to remove the nth node is a two pointer strategy. The fast running goes n steps through, then once it reaches n steps the slow node and the fast node go 
-    until the fast reaches the end
+    The algorithm to remove the nth node is a two pointer strategy. The fast running goes n steps through, then once it reaches n steps 
+    the slow node and the fast node goes until the fast reaches the end
+    
+28. Find Duplicate Sub Trees
+    I learned its ok to have global variables outside of a recursive call, so you can add and append to them.
+    
+29. Maximum depth of binary tree
+    I learned whenever you have a recursive call + 1 it stacks the addition until you enter the base case, ie
+        recursiveCall(root.left) + 1 will return as many times as it's called.
+    
+30. Validate Binary Search Tree
+    I learned sometimes you need help methods in recursion when you need to remember/pass down certain values
+    In our case we needed each recursive call to remember a min and max, and that min and max depended on if we were on the
+    left or right side
+    
+31. Binary Tree Level Order Traversal
+    I learned that BFS is good for traveling level order (root left right).
+    For BFS, we can use a queue. 
+    The general algorithm is
+        add the root to the queue
+        While the queue isnt empty
+            loop queue.size amount of times (for each node on the current level)
+                add current node to a list or something
+                if current node left isnt null
+                    add left to queue
+                if current node right isnt null
+                    add right to queue
+             add your res to the ending res

@@ -196,3 +196,8 @@
                 if current node right isnt null
                     add right to queue
              add your res to the ending res
+             
+32. Merge two sorted lists
+    I learned that when iterating through two different LLs that are sorted, we simply compare L1 element vs L2 and if L1 is bigger, add it and 
+    update L1, vis versa. At the end, if the lists arent the same size you'll have leftover, you then gotta find out if one is still full and add
+    it to the rest.

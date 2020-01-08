@@ -18,7 +18,7 @@
     swap2 - i = temp; We have the -i to iterate the pointer.
        
 4.  Remove Duplicates from Sorted Array
-    Usually whenever you modify an array in place and have to return anindex, you'll use two pointers, I also learned to analyze 
+    Usually whenever you modify an array in place and have to return an index, you'll use two pointers, I also learned to analyze 
     for key information, I.E the array is sorted meaning our algorithm will check if the next element from our current is the same, if it isn't the same,
     those are two unique elements, so edit the array and update the pointer.
         

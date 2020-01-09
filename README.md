@@ -201,3 +201,10 @@
     I learned that when iterating through two different LLs that are sorted, we simply compare L1 element vs L2 and if L1 is bigger, add it and 
     update L1, vis versa. At the end, if the lists arent the same size you'll have leftover, you then gotta find out if one is still full and add
     it to the rest.
+    
+33. Squares of sorted array
+    Similar to last, we basically have 2 sorted arrays here (the negative part and the positive part). If we find out where the negative part ends
+    and the positive part begins, we can do a two pointer traversal placing the smaller element in the new array
+    TLDR 2 sorted arrays = two pointers
+    
+34. Maximum subarray

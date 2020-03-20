@@ -207,4 +207,8 @@
     and the positive part begins, we can do a two pointer traversal placing the smaller element in the new array
     TLDR 2 sorted arrays = two pointers
     
-34. Maximum subarray
+34. Maximum subarray/product
+    I learned that for memoizing/DP with arrays where you have the max sum/product you can keep another array like dp[i] where it means 
+    the MAX sum we can create up to position i, so you will chose between dp[i] or A[i] as your max sum as you iterate
+    memo[i] = Math.max(A[i], memo[i-1] + A[i]);
+    maxSum = Math.max(memo[i], maxSum);

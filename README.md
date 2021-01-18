@@ -207,8 +207,18 @@
     and the positive part begins, we can do a two pointer traversal placing the smaller element in the new array
     TLDR 2 sorted arrays = two pointers
     
-34. Maximum subarray/product
+34. Maximum subarray
+    This is Kadane's algorithm: The max sub array is either the current element, or the current element + previous maximum sub array.
     I learned that for memoizing/DP with arrays where you have the max sum/product you can keep another array like dp[i] where it means 
     the MAX sum we can create up to position i, so you will chose between dp[i] or A[i] as your max sum as you iterate
     memo[i] = Math.max(A[i], memo[i-1] + A[i]);
     maxSum = Math.max(memo[i], maxSum);
+    
+35. Binary Tree pruning
+    Think about some recursions with simple cases.
+    
+36. Copy list with random pointer
+    Even if its a linked list question, remember you can store nodes in hashmaps to look them up
+    
+37. Implement queue with stacks 
+    Trick is two use two stacks, a queue functions the same as a backwards stack.
